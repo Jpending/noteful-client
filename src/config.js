@@ -1,3 +1,3 @@
 export default {
-  API_ENDPOINT: 'http://localhost:8800/api'
+  API_ENDPOINT: 'https://blooming-inlet-80962.herokuapp.com/api'
 }

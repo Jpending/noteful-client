@@ -7,17 +7,20 @@ exports[`AddItemForm component renders the complete form 1`] = `
   <h2>
     Create a folder
   </h2>
-  <NotefulForm>
+  <NotefulForm
+    onSubmit={[Function]}
+  >
     <div
       className="field"
     >
       <label
-        htmlFor="folder-name-input"
+        htmlFor="folder-title-input"
       >
-        Name
+        Title
       </label>
       <input
-        id="folder-name-input"
+        id="folder-title-input"
+        name="folder-title"
         type="text"
       />
     </div>

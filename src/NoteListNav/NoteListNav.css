@@ -1,4 +1,3 @@
-
 .NoteListNav__list {
   list-style-type: none;
   margin: 130px 0 0;
@@ -13,9 +12,26 @@
 .NoteListNav__add-folder-button {
   margin: 20px auto;
 }
+
 .NoteListNav__add-folder-button:hover {
   background-color: #29862e;
   color: white;
+}
+
+.folder__delete {
+  /* --folder-height: 88px;
+  --folder-button-height: 32px; */
+  background-color: #041a3a;
+  border: 0;
+  color: #bdbcbc;
+  float: right;
+  font-size: 12px;
+  /* height: var(--folder-button-height);
+  position: relative;
+  top: calc((var(--folderbutton-height) + 32px) * -1);
+  transform-origin: right bottom;
+  transform: rotate(-90deg);
+  width: calc(var(--folder-height)); */
 }
 
 .NoteListNav__folder-link {
@@ -24,15 +40,17 @@
   display: block;
   font-family: var(--custom-font);
   font-size: 20px;
-  margin: 0 0 8px auto;
+  margin: 0 0 10px auto;
   max-width: 180px;
-  padding: 8px 16px;
+  padding: 28px 20px;
   text-decoration: none;
 }
+
 .NoteListNav__folder-link:hover {
   color: #FFB72F;
   cursor: pointer;
 }
+
 .NoteListNav__folder-link.active {
   background-color: #102541;
 }
